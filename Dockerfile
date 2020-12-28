@@ -15,6 +15,3 @@ RUN cd /tmp \
     && ./install \
     && cd /tmp \
     && rm -rf jexus-6.2* >/dev/null 2>&1
-    # && cd /usr/jexus
-
-RUN mono -V
