@@ -8,7 +8,7 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/* /tmp/*
 
 RUN cd /tmp \
-  && rm -rf jexus-6.2* >/dev/null 2>&1 \
+  && rm -rf jexus-6.3* >/dev/null 2>&1 \
   && wget --no-check-certificate https://www.linuxdot.net/down/jexus-6.3.x-x64.tar.gz \
   #https://linuxdot.net/down/jexus-6.2.tar.gz \
   && tar -zxvf jexus-6.3.x-x64.tar.gz \
